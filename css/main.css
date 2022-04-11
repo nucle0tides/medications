@@ -1,0 +1,29 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+main .intro {
+  gap: 1rem;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bio {
+  width: 100%;
+  max-width: 300px;
+}
+
+.medical-info {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.medical-info div {
+  background-color: seagreen;
+}
