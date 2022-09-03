@@ -3,27 +3,64 @@ body {
   height: 100vh;
 }
 
-main .intro {
-  gap: 1rem;
-  background-color: pink;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.bio {
+main {
   width: 100%;
-  max-width: 300px;
+  height: 100%;
 }
 
-.medical-info {
-  background-color: pink;
+.content {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  place-content: center center;
+  flex-direction: column;
+  margin: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
-.medical-info div {
-  background-color: seagreen;
+.spacer-y {
+  margin-top: auto;
+  padding-bottom: 1rem;
+}
+
+.spacer-break {
+  margin-top: auto;
+  padding-bottom: 1px;
+}
+
+.pius {
+  border-radius: 50px;
+}
+
+.intro {
+  display: flex;
+  gap: 80px;
+}
+
+.info {
+  display: flex;
+}
+
+.info > div {
+  width: 50%;
+}
+
+.med-table {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.table-header {
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.table-rows {
+  display: grid;
+  row-gap: 1rem;
+}
+.table-rows > div {
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
 }
