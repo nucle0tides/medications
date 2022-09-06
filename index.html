@@ -12,8 +12,10 @@
   <body>
     <main>
       <div class="content">
-        <div class="intro">
-          <img src="./images/pius.jpg" width="300px" class="pius" />
+        <div class="info-block">
+          <div class="pius-pic">
+            <img src="./images/pius.jpg" width="300px" height="300px" class="pius" />
+          </div>
           <div>
             <h1>Hey there, I'm Pius!</h1>
             <div class="spacer-y"></div>
@@ -37,51 +39,60 @@
             </div>
           </div>
         </div>
-        <div class="info">
-          <div>
-            <h2>Medications</h2>
-            <div class="med-table">
-              <div class="table-header">
-                <div>Medication</div>
-                <div>Amount</div>
-                <div>Frequency</div>
-              </div>
-              <div class="table-rows">
-                <div>
-                  <div>Phenobarbital</div>
-                  <div>100mg</div>
-                  <div>Every 12 hours</div>
-                </div>
-                <div>
-                  <div>Phenobarbital</div>
-                  <div>100mg</div>
-                  <div>Every 12 hours</div>
-                </div>
-                <div>
-                  <div>Potassium Bromide</div>
-                  <div>250mg</div>
-                  <div>Every 12 hours</div>
-                </div>
-                <div>
-                  <div>Levetiracetam</div>
-                  <div>1500mg</div>
-                  <div>Every 8 hours</div>
-                </div>
-                <div>
-                  <div>Zonisamide</div>
-                  <div>200mg</div>
-                  <div>Every 12 hours</div>
-                </div>
-                <div>
-                  <div>Midazolam</div>
-                  <div>20mg (intranasally)</div>
-                  <div>As-needed to control clusters</div>
-                </div>
-              </div>
+        <div class="info-block">
+          <div class="doctors">
+            <h2>Doctors who know me</h2>
+            <div>
+              <span>Union Hill Animal Hospital</span>
+              <span><a href="https://goo.gl/maps/XMpKDn1WPPTdBx1K7" target="_blank">3025 Main St, Kansas City, MO 64108</a></span>
+            </div>
+            <div>
+              <span>Mission Veterinary Emergency and Specialty</span>
+              <span><a href="https://goo.gl/maps/Gh7CAqjMZ2rFmDxq5" target="_blank">5914 Johnson Dr, Mission, KS 66202</a></span>
+            </div>
+            <div>
+              <span>University of Missouri-Columbia Veterinary Health Center (Neurology)</span>
+              <span><a href="https://goo.gl/maps/ogdUhLhhQ3jro3H4A" target="_blank">900 E Campus Dr, Columbia, MO 65211</a></span>
             </div>
           </div>
           <div>
-            <h2>Doctors who know me</h2>
+            <h2>Medications</h2>
+            <table class="med-table">
+              <thead>
+                <tr>
+                  <th>Medication</th>
+                  <th>Amount</th>
+                  <th>Frequency</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Phenobarbital</td>
+                  <td>100mg</td>
+                  <td>Every 12 hours</td>
+                </tr>
+                <tr>
+                  <td>Potassium Bromide</td>
+                  <td>250mg</td>
+                  <td>Every 12 hours</td>
+                </tr>
+                <tr>
+                  <td>Levetiracetam</td>
+                  <td>1500mg</td>
+                  <td>Every 8 hours</td>
+                </tr>
+                <tr>
+                  <td>Zonisamide</td>
+                  <td>200mg</td>
+                  <td>Every 12 hours</td>
+                </tr>
+                <tr>
+                  <td>Midazolam</td>
+                  <td>20mg</td>
+                  <td>As-needed intranasally to control clusters</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
