@@ -36,6 +36,12 @@
                 control my epilepsy and going without these medications will be
                 fatal for me.
               </span>
+              <div class="spacer-y"></div>
+              <span>
+                Please call the numbers listed on my collar or email <a id="gabby" href="">Gabby</a> or <a id="elias" href="">Elias</a>.
+                <br />
+                Thank you!
+              </span>
             </div>
           </div>
         </div>
@@ -49,10 +55,6 @@
             <div>
               <span>Mission Veterinary Emergency and Specialty</span>
               <span><a href="https://goo.gl/maps/Gh7CAqjMZ2rFmDxq5" target="_blank">5914 Johnson Dr, Mission, KS 66202</a></span>
-            </div>
-            <div>
-              <span>University of Missouri-Columbia Veterinary Health Center (Neurology)</span>
-              <span><a href="https://goo.gl/maps/ogdUhLhhQ3jro3H4A" target="_blank">900 E Campus Dr, Columbia, MO 65211</a></span>
             </div>
           </div>
           <div>
@@ -68,17 +70,17 @@
               <tbody>
                 <tr>
                   <td>Phenobarbital</td>
-                  <td>100mg</td>
+                  <td>75mg</td>
                   <td>Every 12 hours</td>
                 </tr>
                 <tr>
                   <td>Potassium Bromide</td>
-                  <td>250mg</td>
-                  <td>Every 12 hours</td>
+                  <td>750mg</td>
+                  <td>Once a day</td>
                 </tr>
                 <tr>
                   <td>Levetiracetam</td>
-                  <td>1500mg</td>
+                  <td>1875mg</td>
                   <td>Every 8 hours</td>
                 </tr>
                 <tr>
@@ -88,7 +90,7 @@
                 </tr>
                 <tr>
                   <td>Midazolam</td>
-                  <td>20mg</td>
+                  <td>--</td>
                   <td>As-needed intranasally to control clusters</td>
                 </tr>
               </tbody>
@@ -97,5 +99,15 @@
         </div>
       </div>
     </main>
+    <script>
+      var gabbyEmail = "b3J0bWFuZ2xAZ21haWwuY29t";
+      var gabby = document.getElementById("gabby");
+      console.log(gabby)
+      gabby.setAttribute("href", "mailto:".concat(atob(gabbyEmail)));
+
+      var eliasEmail = "ZWxpYXMuam0uZ2FyY2lhQGdtYWlsLmNvbQ=="
+      var elias = document.getElementById("elias");
+      elias.setAttribute("href", "mailto:".concat(atob(eliasEmail)));
+    </script>
   </body>
 </html>
